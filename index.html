@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>书库</title>
+		<style type="text/css">
+			#bookNum{
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				vertical-align: top;
+				text-align: center;
+				border-bottom: solid 1px;
+			}
+		</style>
+		<script src="index.js"></script>
+	</head>
+	<body>
+		
+		<!-- 单个字符串 -->
+		<p>点击 <button type="button" id="but1">这里</button> 统计图书数量</p>
+		<p>共有<span id="bookNum"></span>本书</p>
+		<br>
+		
+		<!-- 一维数组 -->
+		<p>查看图书信息</p>
+		<p><input type="text" placeholder="输入书名"/ id="inputBook"> <button type="button" id="but2">查询</button></p>
+		<br>
+		<div id="bookInfoCont">
+			
+		</div>
+		
+		<!-- 二维数组 -->
+		<p>点击 <button type="button" id="but3">这里</button> 列出所有图书</p>
+		<div id="allBook">
+			
+		</div>
+		
+	</body>
+</html>
